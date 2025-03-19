@@ -17,4 +17,4 @@ let esMayorDeEdad = true;
 let tieneTerceraEdad = false;
 alert (mensajeFinal);
 let nombreMascota = prompt ("Escribe el nombre de tu mascota");
-alert ("El nombre de la mascota es : "+ nombreMascota);
+alert ("El nombre de la mascota es : "+ nombreMascota)
