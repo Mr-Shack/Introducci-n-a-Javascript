@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro al DOM en JavaScript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .comment-box {
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .comment {
+            margin-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .date {
+            font-size: 0.8em;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Practica: Intro al Dom en JavaScript</h1>
+    <h2>Caja de Comentarios</h2>
+    <form id="commentForm">
+        <textarea id="commentInput" placeholder="Escribe tu comentario aquí..." rows="4" style="width: 100%;"></textarea>
+        <br><br>
+        <button type="button" id="addCommentButton">Agregar Comentario</button>
+    </form>
+    <div id="commentsContainer" class="comment-box"></div>
+    <script src="script.js"></script>
+</body>
+</html>
